@@ -6,11 +6,26 @@
   <title>AI से कमाई — 10 AI Side Hustles</title>
   <meta name="description" content="Zero Investment से शुरू होने वाले 10 AI Side Hustles — Beginners के लिए Step-by-Step Practical Guide." />
 
-  <!-- Meta Pixel placeholder:
+  <!-- Meta Pixel Code -->
   <script>
-    // Paste your Meta Pixel base code here after you create/activate the Pixel.
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}
+  (window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1528573945625546');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent', {
+    content_name: 'AI Se Kamai eBook',
+    value: 99.00,
+    currency: 'INR'
+  });
   </script>
-  -->
+  <!-- End Meta Pixel Code -->
 
   <style>
     :root{
@@ -116,7 +131,13 @@
     }
   </style>
 </head>
+
 <body>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1528573945625546&ev=PageView&noscript=1" />
+  </noscript>
+
   <div class="wrap">
     <nav class="nav">
       <div class="brand">AI Growth Hub <span>India</span></div>
@@ -195,5 +216,19 @@
       © 2026 AI Growth Hub India. Educational digital product. No guaranteed earnings are promised.
     </footer>
   </div>
+
+  <script>
+  document.querySelectorAll('a[href*="superprofile.bio"]').forEach(function(button) {
+    button.addEventListener('click', function() {
+      if (typeof fbq !== 'undefined') {
+        fbq('track', 'InitiateCheckout', {
+          content_name: 'AI Se Kamai eBook',
+          value: 99.00,
+          currency: 'INR'
+        });
+      }
+    });
+  });
+  </script>
 </body>
 </html>
